@@ -1,0 +1,25 @@
+.toolbar_items {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.filter_item {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.selected {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+.list {
+  padding: 0;
+}
